@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Placecard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card_container">
+
+            </div>
+        </div>
+        <div class="form">
+            <form class="form_container"> 
+                <label for="c_num">N&uacute;mero de Tarjera</label><br>
+                <input type="number" class="long_input" placeholder="**** **** **** ****"><br>
+                <label for="n_usr">Nombre y Apellido</label><br>
+                <input type="text" class="long_input" placeholder="Nombres y Apellidos"><br>
+                <div class="last_input">
+                    <div class="exp_date"> 
+                        <label for="exp_date">Fecha de Vecimiento</label><br>
+                            <select name="months" class="short_input" placeholder="Mes">
+                                <option value="Mes">Mes</option>
+                                <option value="Enero">01</option>
+                                <option value="Febrero">02</option>
+                                <option value="Marzo">03</option>
+                                <option value="Abril">04</option>
+                                <option value="Mayo">05</option>
+                                <option value="Junio">06</option>
+                                <option value="Julio">07</option>
+                                <option value="Agosto">08</option>
+                                <option value="Septiembre">09</option>
+                                <option value="Octubre">10</option>
+                                <option value="Noviembre">11</option>
+                                <option value="Diciembre">12</option>
+                            </select>
+                            <select name="year" class="short_input">
+                                <option value="year">Año</option>
+                                <option value="2020">20</option>
+                                <option value="2021">21</option>
+                                <option value="2022">22</option>
+                                <option value="2023">23</option>
+                                <option value="2024">24</option>
+                                <option value="2025">25</option>
+                                <option value="2026">26</option>
+                                <option value="2027">27</option>
+                                <option value="2028">28</option>
+                                <option value="2029">29</option>
+                            </select>
+                    </div>
+                    <div class="cvv">
+                        <label for="cvv">CVV</label><br>
+                        <input type="text" name="cvv" class="short_input">
+                    </div>
+                </div>
+                <button class="btn">Ingresar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

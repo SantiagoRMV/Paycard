@@ -1,0 +1,95 @@
+body {
+    background: #DDEEFC;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    width: 600px;
+    height: 900px;
+    align-self: center;
+    left: 50%;
+    transform: translate(-50%);
+    top:25px;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    height: 275px;
+    border-radius: 25px;
+    background-color: grey;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    z-index: 1;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    height: 600px;
+    background: white;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.form_container {
+    position: absolute;
+    top: 180px;
+    width: 500px;
+    height: 500px;
+    left: 50px;
+}
+
+label {
+    color: rgb(0, 0, 39);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.long_input {
+    border: 0.5px solid rgb(186, 186, 218);
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.short_input {
+    border: 0.5px solid rgb(186, 186, 218);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.last_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background: rgb(1, 1, 255);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
